@@ -15,8 +15,18 @@ void draw()
 	stroke((int)(Math.random()*100));	
 	while(endX < 300)
 	{
-		endX = startX + (int)(Math.random()*9);
-		endY = startY + (int)(Math.random()*9)-9;
+		endX = startX + (int)(Math.random()*5);
+		endY = startY + (int)(Math.random()*5)-5;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*8);
+		endY = startY + (int)(Math.random()*8)-8;
 
 		line(startX, startY, endX, endY);
 		startX = endX;
@@ -35,8 +45,8 @@ void draw()
 	stroke((int)(Math.random()*100));	
 	while(endX < 300)
 	{
-		endX = startX + (int)(Math.random()*9);
-		endY = startY + (int)(Math.random()*9)-9;
+		endX = startX + (int)(Math.random()*12);
+		endY = startY + (int)(Math.random()*12)-12;
 
 		line(startX, startY, endX, endY);
 		startX = endX;
@@ -45,8 +55,8 @@ void draw()
 	stroke((int)(Math.random()*100));	
 	while(endX < 300)
 	{
-		endX = startX + (int)(Math.random()*9);
-		endY = startY + (int)(Math.random()*9)-9;
+		endX = startX + (int)(Math.random()*11);
+		endY = startY + (int)(Math.random()*11)-11;
 
 		line(startX, startY, endX, endY);
 		startX = endX;
@@ -55,18 +65,8 @@ void draw()
 	stroke((int)(Math.random()*100));	
 	while(endX < 300)
 	{
-		endX = startX + (int)(Math.random()*9);
-		endY = startY + (int)(Math.random()*9)-9;
-
-		line(startX, startY, endX, endY);
-		startX = endX;
-		startY = endY;
-	}
-	stroke((int)(Math.random()*100));	
-	while(endX < 300)
-	{
-		endX = startX + (int)(Math.random()*9);
-		endY = startY + (int)(Math.random()*9)-9;
+		endX = startX + (int)(Math.random()*10);
+		endY = startY + (int)(Math.random()*10)-10;
 
 		line(startX, startY, endX, endY);
 		startX = endX;
