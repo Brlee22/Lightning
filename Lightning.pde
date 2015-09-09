@@ -22,6 +22,56 @@ void draw()
 		startX = endX;
 		startY = endY;
 	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*9);
+		endY = startY + (int)(Math.random()*9)-9;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*9);
+		endY = startY + (int)(Math.random()*9)-9;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*9);
+		endY = startY + (int)(Math.random()*9)-9;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*9);
+		endY = startY + (int)(Math.random()*9)-9;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
+	stroke((int)(Math.random()*100));	
+	while(endX < 300)
+	{
+		endX = startX + (int)(Math.random()*9);
+		endY = startY + (int)(Math.random()*9)-9;
+
+		line(startX, startY, endX, endY);
+		startX = endX;
+		startY = endY;
+	}
 }
 
 void mousePressed()
