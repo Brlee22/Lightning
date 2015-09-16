@@ -1,12 +1,12 @@
 int startX = 0; 
-int startY = 3000; 
+int startY = 300; 
 int endX = 0; 
-int endY = 3000;
+int endY = 300;
 
 void setup()
 {
-  size(500,400);
-  background(0,0,20);
+  size(1000,900);
+  background(0,0,30);
   strokeWeight(5);
   noLoop();
 }
@@ -32,8 +32,8 @@ void mousePressed()
 {
   //background(250,200,0);
   startX = 0;
-  startY = 150;
+  startY = 300;
   endX = 0;
-  endY = 150;
+  endY = 300;
   redraw();
 }
