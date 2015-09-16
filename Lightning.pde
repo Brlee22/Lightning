@@ -37,3 +37,24 @@ void mousePressed()
   endY = 150;
   redraw();
 }
+
+void setup()
+{
+size(300,300);
+background (0, 0, 0)
+strokeWeight(1);
+}
+
+int startX=0;
+int startY=150;
+int endX=0;
+int endY=150;
+
+void draw()
+{
+stroke(250);
+
+while(endY<300||endX<300{
+
+endX=startX + (int)(math.random()*10);
+endY=startY+ *
