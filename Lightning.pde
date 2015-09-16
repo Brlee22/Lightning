@@ -1,7 +1,7 @@
 int startX = 0; 
-int startY = 150; 
+int startY = 300; 
 int endX = 0; 
-int endY = 150;
+int endY = 300;
 
 void setup()
 {
