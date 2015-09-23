@@ -1,7 +1,7 @@
 void setup()
 {
-size(300,300);
-background(0,0,0);
+size(400,400);
+background(20,20,20);
 strokeWeight(1);
 }
 
@@ -13,7 +13,7 @@ int endY=150;
 void draw()
 {
 
-  stroke(250,(int)(Math.random()*250),(int)(Math.random()*250));
+  stroke(150,(int)(Math.random()*150),(int)(Math.random()*150));
   
   
   while(endY < 300 || endX < 300){
