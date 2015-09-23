@@ -13,7 +13,7 @@ int endY=150;
 void draw()
 {
 
-  stroke(150,(int)(Math.random()*150),(int)(Math.random()*150));
+  stroke(int)(Math.random()*150,(int)(Math.random()*150),(int)(Math.random()*150));
   
   
   while(endY < 300 || endX < 300){
