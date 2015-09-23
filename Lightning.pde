@@ -1,7 +1,7 @@
 void setup()
 {
-size(400,400);
-background(20,20,20);
+size(500,500);
+background(80,80,80);
 strokeWeight(1);
 }
 
